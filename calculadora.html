@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora Maneira</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+
+            <button id="iniciar" onclick="iniciar()">iniciar</button>
+
+<h1 id="title">Calculadora <br> Maneira</h1>
+
+
+<div id="resto">
+
+
+<div class="conta">
+    <div class="x">
+<label for="x1"></label> 
+    <select name="x1" id="x1"> 
+        <option value="0">0</option> 
+        <option value="1">1</option> 
+        <option value="2">2</option> 
+        <option value="3">3</option> 
+        <option value="4">4</option> 
+        <option value="5">5</option> 
+        <option value="6">6</option> 
+        <option value="7">7</option> 
+        <option value="8">8</option> 
+        <option value="8">9</option> 
+    </select>
+
+<label for="x2"></label> 
+    <select name="x2" id="x2"> 
+        <option value="0">0</option> 
+        <option value="1">1</option> 
+        <option value="2">2</option> 
+        <option value="3">3</option> 
+        <option value="4">4</option> 
+        <option value="5">5</option> 
+        <option value="6">6</option> 
+        <option value="7">7</option> 
+        <option value="8">8</option> 
+        <option value="8">9</option> 
+    </select>   
+</div>
+
+<div class="op">
+    <label for="+"></label> 
+    <select name="operador" id="operador"> 
+        <option value="+">+</option> 
+        <option value="-">-</option> 
+        <option value="*">x</option> 
+        <option value="/">÷</option> 
+        <option value="^">^</option> 
+    </select>   
+</div>
+<div class="y">
+<label for="y1"></label> 
+    <select name="y1" id="y1"> 
+        <option value="0">0</option> 
+        <option value="1">1</option> 
+        <option value="2">2</option> 
+        <option value="3">3</option> 
+        <option value="4">4</option> 
+        <option value="5">5</option> 
+        <option value="6">6</option> 
+        <option value="7">7</option> 
+        <option value="8">8</option> 
+        <option value="8">9</option> 
+    </select>   
+
+<label for="y2"></label> 
+    <select name="y2" id="y2"> 
+        <option value="0">0</option> 
+        <option value="1">1</option> 
+        <option value="2">2</option> 
+        <option value="3">3</option> 
+        <option value="4">4</option> 
+        <option value="5">5</option> 
+        <option value="6">6</option> 
+        <option value="7">7</option> 
+        <option value="8">8</option> 
+        <option value="8">9</option> 
+    </select>   
+</div>
+</div>
+
+
+<div class="texto">
+<p classs="xtext">☝️ primeiro número</p>
+<p class="optext">☝️ operador</p>
+<p class="ytext">☝️ segundo número</p>
+</div>
+
+<div class="butao">
+    <button id="botao" onclick="calculateResult()" onclick="pausar()">resultado</button>
+  </div>
+</div>
+</body>
+</html>

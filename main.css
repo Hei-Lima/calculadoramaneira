@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Neue", cursive;
+}
+
+#title {
+    font-family: "Comic Neue", cursive;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    -webkit-text-stroke: 4px black;
+    color: white;
+    font-size: 5.5rem;
+    animation: float 6s ease-in-out infinite;
+
+}
+
+.conta {
+   display: flex;
+   justify-content: space-between;
+   color: transparent;
+}
+
+
+select {
+    appearance: none;
+    background-color: transparent;
+    margin: 2rem;
+    width: 10rem;
+    text-align: center;
+    font-family: inherit;
+    font-size: 4.5rem;
+    cursor: inherit;
+    background-image: linear-gradient(to top, #2e2e2e, #2e2e2e 0%);
+    color: #c2c2c2;
+    border-radius: 20px;
+    border: 5px solid rgba(255, 255, 255, 40%);
+    -webkit-box-shadow: 0px 10px 4px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 10px 4px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px 10px 4px 1px rgba(0,0,0,0.4);
+    opacity: 0.9;
+  }
+  
+  select:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to top, #2e2e2e, #000000 0%);
+}
+
+.x {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.op{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.y {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+
+
+.xtext {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+
+.optext {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.ytext {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.texto {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Comic Neue", cursive;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    font-size: 3.5rem;
+    animation: float 6s ease-in-out infinite;
+
+
+}
+
+
+.butao {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #2e2e2e;
+    text-align: center;
+    font-family: inherit;
+    font-size: 4.5rem;
+    padding: 2rem;
+    color: #c2c2c2;
+    border-radius: 20px;
+    border: 5px solid rgba(255, 255, 255, 40%);
+    -webkit-box-shadow: 0px 10px 4px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 10px 4px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px 10px 4px 1px rgba(0,0,0,0.4);
+    
+    
+}
+
+#botao {
+    margin-top: 4rem;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+    background-color: #000000;
+}
+
+#iniciar {
+    margin-top: 4rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
+    z-index: 3;
+}
+
+
+#resto {
+    opacity: 0;
+}
+
+
+
+
+.result {
+    font-family: "Comic Neue", cursive;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    -webkit-text-stroke: 4px black;
+    color: white;
+    font-size: 5.5rem;
+    animation: float 6s ease-in-out infinite;
+}
+
+#result {
+    font-family: "Comic Neue", cursive;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    -webkit-text-stroke: 4px black;
+    color: white;
+    font-size: 5.5rem;
+    animation: float 6s ease-in-out infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background: linear-gradient(124deg, #ff0000, #eeff00, #00ff20, #00e6ff, #6b00ff);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 42s ease infinite;
+    -moz-animation: AnimationName 42s ease infinite;
+    animation: AnimationName 42s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
